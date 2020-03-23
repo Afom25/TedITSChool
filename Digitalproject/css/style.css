@@ -1,0 +1,22 @@
+
+
+#preloader{
+    background-color:white;
+    position: fixed;
+    top: 0;
+    bottom:0;
+    right:0;
+    left:0;
+    z-index:9999;
+}
+#status {
+    background-image: url("../img/Spinner-1s-200px.gif");
+    background-repeat: no-repeat;
+    width:180px;
+    height: 180px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top: -90px;
+    margin-left: -90px;
+}
