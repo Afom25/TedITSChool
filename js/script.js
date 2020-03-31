@@ -38,17 +38,12 @@ $(document).ready(function(){
 
      errorm.style.padding = "10px";
 
-     if (name.length < 4){
+     if (name.length < 2){
          text = "please Enter Valid Name";
          errorm.innerHTML = text;
          return false ;
      }
-     if (subject.length < 10){
-        text = "please Enter Valid subjectName";
-        errorm.innerHTML = text;
-        return false ;
-
-  }
+    
   if (email.indexOf("@") == -1 || email.length < 6){
     text = "please Enter Valid email";
     errorm.innerHTML = text;
