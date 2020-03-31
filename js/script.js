@@ -44,7 +44,7 @@ $(document).ready(function(){
          return false ;
      }
     
-  if (email.indexOf("@") == -1 || email.length < 6){
+  if (email.indexOf("@") == -1 || email.length < 5){
     text = "please Enter Valid email";
     errorm.innerHTML = text;
     return false ;
