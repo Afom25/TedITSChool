@@ -12,7 +12,6 @@ h4,
 h5,
 h6{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -24,8 +23,6 @@ section{
     background-color: white;
     overflow: hidden;
 }
-
-
 #preloader{
     background-color:white;
     position: fixed;
@@ -36,16 +33,14 @@ section{
     z-index:9999;
 }
 #status {
-    background-image: url("../img/Spinner-1s-200px.gif");
-    background-repeat: no-repeat;
+  
     width:180px;
     height: 180px;
     position: absolute;
     left:50%;
     top:50%;
     margin-top: -90px;
-    margin-left: -90px;
-    
+    margin-left: -90px;  
 }
 
 /* css for Home */
@@ -75,6 +70,7 @@ section{
     top:0;
     left:0;
     z-index:-1;
+   
 }
 #home-content{
     width:100%;
@@ -92,17 +88,21 @@ section{
     text-transform: capitalize;
     margin: 0;
     display:inline-block;
+    font-family: 'Black Ops One', cursive;
 }
 #home-heading h1 span{
     color:gray;
     font-weight: 500;
+    font-family: 'Quantico', sans-serif;
+    font-size: larger;
 }
 #home-text p{
     color:whitesmoke;
     font-size: 20px;
     font-weight: 200;
     margin:8px 0 30px 0;
-
+    /* font-family: 'Spicy Rice', cursive; */
+    font-family: 'Arvo', serif;
 }
 .btn-general{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -149,16 +149,17 @@ section{
 }
 .vertical-heading h5 {
 color:red;
-font-size: 14px;
-font-weight: 600;
+font-size: 18px;
+font-weight: 100;
+font-family: 'Fredoka One', cursive;
 text-transform: uppercase;
 word-spacing: 8px;
 display: inline-block;
-/* -webkit-transform: rotate(-90deg);
+-webkit-transform: rotate(-90deg);
 transform: rotate(-90deg);
 position: relative;
 top:60px;
-left:-63px; */
+left:-63px;
 }
 .vertical-heading h2 {
     line-height:45px;
@@ -166,9 +167,25 @@ left:-63px; */
     margin: 0 0 0 35px;
     font-weight: 200;
     line-height: 45px;
+    font-family: 'Arvo', serif;
 }
 #about-right p:first-child{
-    margin-bottom:30px;
+    /* margin-bottom:50px; */
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+#about-right p{
+    font-size: 16px;
+    /* font-family: 'Patrick Hand', cursive; */
+    font-family: 'Arvo', serif;
+    text-align: justify;
+
+}
+#about-right {
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+    text-align: justify;
+
 }
 #about-bottom {
     margin-top: 60px;
@@ -190,14 +207,15 @@ left:-63px; */
     -webkit-box-shadow: 0 0 12px rgba(0,0,0,.5);
     box-shadow: 0 0 12px rgba(0,0,0,.5);
 }
-.about-item i {
+.about-item i {  
     font-size: 40px;
     margin: 0;
 }
 .about-item h3 {
     font-size: 28px;
     margin-bottom:10px;
-
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
 }
 .about-item hr {
     background-color: rgb(233, 21, 21);
@@ -206,8 +224,10 @@ left:-63px; */
     margin: 0 auto;
     border:none;
 }
+/*  */
 .about-item p {
     margin-top: 20px;
+    font-family: 'Arvo', serif;
 }
 /* hover state*/
 .about-item:hover {
@@ -221,3 +241,403 @@ left:-63px; */
     -webkit-transition: all 400ms ease-in-out;
     transition: all 400ms ease-in-out;
 }
+#image-4{
+    width:250px;
+    height:200px;
+    /* text-align: center;
+    float: right; */
+}
+
+/* Team section */
+#team-left p {
+    font-family: 'Arvo', serif;
+}
+#team-left .vertical-heading {
+    min-height: 150px;
+} 
+.team-member1{
+    margin:8px;
+    position: relative;
+}
+.team-member-overlay {
+    background-color: rgba(33,35,39,.5);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transition: all 30ms linear;
+    transition: all 30ms linear;
+}
+.team-member-info{
+    width: 100%;
+    height: 100%;
+    padding:70px 0;
+}
+.team-member-info h6{
+    color: sandybrown;
+    font-size: 20px;
+    margin: 0;
+}
+.team-member-info p {
+    color:whitesmoke;
+    font-size: 18px;
+}
+.team-member1:hover .team-member-overlay {
+   opacity: 1;
+}
+/* social icons*/
+
+ul.social-media {
+    padding:0;
+    margin-top:20px;
+}
+ul.social-media li {
+    display:inline-block;
+    padding:0;
+}
+ul.social-media li a {
+    border:1px solid #fff;
+    width:35px;
+    height:35px;
+    display:inline-block;
+    line-height: 35px;
+    color:#fff;
+    border-radius: 50%;
+    -webkit-transition: all 40ms linear;
+    transition: all 40ms linear;
+}
+ul.social-media li:nth-child(1) a:hover {
+    background: #3b5958 ;
+    border-color: transparent;
+}
+ul.social-media li:nth-child(2) a:hover {
+    background: #3b5958 ;
+    border-color: transparent;
+}
+ul.social-media li:nth-child(3) a:hover {
+    background: #3b5958 ;
+    border-color: transparent;
+}
+.owl-theme .owl nav {
+    color:#3b5958;
+    font-size: 30px;
+    background-color: none;
+}
+.skill {
+    margin-bottom: 20px;
+}
+.skill h4{
+    line-height: 62px;
+    margin:0;
+    font-weight: normal;
+    font-family: 'Varela Round', sans-serif;
+}    
+.progress{
+    height:25px;
+    border-radius: 0;
+    background: #eeffee;
+    overflow: visible;
+}
+.progress-bar{
+    background-color:#f4c613;
+    position: relative;
+}
+.progress-bar span {
+    font-size:  13px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    padding:2px;
+    background:#212226;
+    position: absolute;
+    left:95%;
+    
+}
+.progress-bar span:before {
+    content:"" ;
+    border-top: 8px solid gray;
+    border-left:6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    bottom:-8px;
+    left:23%
+}
+
+/* Statement */
+#statement {
+    background: url("../img/com2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: fixed;
+}
+#statement .content-box-lg {
+    background: rgba(0,0,0,0.3);
+}
+#tech-statement h3 {
+    color:black;
+    font-size: 25px;
+    line-height: 45px;
+    font-family: 'Fredoka One', cursive;
+}
+#tech-statement p {
+    font-size: 18px;
+    color:red;
+    margin-top: 10px;
+    font-family: 'Arvo', serif;
+}
+/* service */
+
+.horizontal-heading {
+    margin-bottom: 75px;
+}.horizontal-heading h5 {
+    font-size: 25px;
+    color:red;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.horizontal-heading h2 {
+    font-size:45px;
+    font-weight: 100;
+    line-height: 45px;
+    margin:0;
+}
+#services-01 img {
+    margin:60px 0;
+}
+.service {
+    margin:35px 0;
+}
+.service .icon {
+    font-size: 30px;
+    margin: 0;
+    transition: all 40ms linear;   
+}
+.service:hover .icon{
+    color:red;
+    transform: translateX(-20px);
+    /* font-family: 'Comic Neue', cursive; */
+}
+.service h5{
+    font-size: 19px;
+    text-transform: uppercase;
+    margin:0 0 6px 0;
+}
+.service:hover h5{
+    color:red;
+    /* font-family: 'Baloo Thambi 2', cursive; */
+    font-family: 'Spicy Rice', cursive;
+}
+.service h4 {
+    font-size: 25px;
+    color:red;
+    margin: 0 0 8px 0;
+    font-family: 'Comic Neue', cursive;
+}
+/* contact */
+#contact-left p{
+    margin: 25px 0 20px 0;
+}
+.horizontal-heading h2 {
+    line-height:45px;
+    font-size:42px;
+    margin: 0 0 0 35px;
+    font-weight: 200;
+    line-height: 45px;
+    font-family: 'Arvo', serif;
+}
+#contact-left h4{
+    color:red;
+}
+.office h4 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Arvo', serif;
+
+}
+ul.office-details {
+    list-style: none;
+    padding:0;
+    font-family: 'Fredoka One', cursive;
+}
+ul.office-details li{
+ 
+    margin-top: 34px;
+    display:flex;
+    font-family: 'Arvo', serif;}
+ul.office-details li i{
+    font-size: 30px;
+    width:45px;
+}
+ul.package li {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+#contact-left ul.social-media li a {
+    color:grey;
+    border:1px solid grey;
+    text-align: center;
+}
+#contact-left ul.social-media li a:hover {
+    color:white;
+    border-color: transparent;
+}
+#contact-right{
+    padding:25px 30px;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.0.1);
+    border-radius:4px;
+}
+#contact-right h4 {
+    font-size: 34px;
+    color:red;
+    text-align: center;
+    font-family: 'Markazi Text', serif;
+}
+#contact-right p {
+    margin-bottom: 25px;
+}
+#contact-right form input.form-control {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px 15px;
+    font-size: 13px;
+    line-height: 24px;  
+}
+#contact-right form textarea.form-control{
+    min-height: 160px;
+}
+#submit-btn{
+    text-align: center;
+}
+
+/* footer */
+footer {
+    background: #212226;
+    padding:40px;
+}
+footer p {
+    color:wheat;
+    line-height: 20px;
+}
+footer p span {
+    color:#f4c613;
+}
+/* pricing */
+.pricing-table {
+   -webkit-box-shadow: 0 0 12px 0 rgba(0,0,0,0.7);
+     box-shadow: 0 0 12px 0 rgba(0,0,0,0.7);
+     border-radius:6px;
+     padding:32px 21px;
+     -webkit-transition: all 40ms linear;
+     transition:all 40ms linear;
+}
+.pricing-table:hover {
+    background: #c08f8f;
+}
+.pricing-table .type h4{
+    color:red;
+    font-size:24px;
+    margin-bottom:25px;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+}
+.pricing-table .price {
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding:24px 0;
+}
+
+.pricing-table .price h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 100;
+    margin:0 0 0 24px;
+    position:relative;
+    text-align: center;
+}
+.pricing-table .price h2 span {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.pricing-table .price h2 span.dollar {
+    font-size:20px;
+    font-weight: 100;   
+    position: absolute;
+    left:-20px;
+    top:5px;
+}
+
+.pricing-table .price p {
+    line-height: normal;
+    font-weight: 100;
+    margin:0;
+    padding:0;
+}
+
+.pricing-table ul.package {
+    list-style: none;
+    padding:20px 0;
+}
+.pricing-table ul.package li {
+    font-family: 'Rokkitt', serif;
+    font-size:18px;
+    font-weight:400;
+    line-height:40px;
+    font-style: bold;
+}
+/* .pricing-table ul.package li i {
+    /* width:24px; */
+
+.pricing-table:hover h4 , 
+.pricing-table:hover h2,
+.pricing-table:hover p,
+.pricing-table:hover ul.package,
+.pricing-table:hover #sumbit-price.btn btn-outline-danger
+{
+    color:#fff;
+    font-family: 'Markazi Text', serif;
+}
+
+/* ANIMATION */
+#home-heading-1{
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+#home-heading-2{
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+}
+#home-text{
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+}
+#arrow-down i{
+    animation-duration: 1.5s;
+    animation-delay: 2.5s;
+}
+
+/* navbar*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: gray;
+    }
+}
+
+/* .pricing-table .price h2 span.month {
+    font-size:14px;
+    font-weight: 400;   
+    position: absolute;
+    left:-20px;
+    bottom:-12px;
+} */

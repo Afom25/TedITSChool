@@ -4,11 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital</title>
-    <link rel="shortcut icon" href="img/">
+    <title>TED</title>
+    <link rel="shortcut icon" href="img/ted.png">
     <!--css-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate/animate.css">
+    <link rel="stylesheet" href="js/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/owl/owl.theme.default.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Markazi+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+
     <!---Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -16,18 +39,48 @@
 
 <body>
     <!---Preloader-->
-    <div id="preloader">
+    <div id="preloader"><div class="col-md-6">
+        
+    </div>
         <div id="status">&nbsp;</div>
     </div>
+    <!--- Header Navabr-->
+
+    <header>
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+            <a class="navbar-brand" href="#home"><strong>TED</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav navbar-nav float-lg-right">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+    
+    </header>
+   
     <section id="home">
-        <video id="home-bg-video" poster="video/teddy.png" autoplay loop muted>
-           
-                <source src="/home/hidri/Desktop/Htmlproject/video/play.mp4" type="video/mp4">
-                <!-- <source src="movie.ogg" type="video/ogg"> -->
-                
+        <video id="home-bg-video" poster="video/teddy.png" autoplay loop muted> 
+                <source src="/home/hidri/Desktop/Htmlproject/video/v2.mp4" type="video/mp4">  
               </video>
               
-        </video>
         <!--overlay-->
         <div id="home-overlay">
 
@@ -35,15 +88,11 @@
         <div id="home-content">
             <div id="home-content-inner" class="text-center">
                 <div id="home-heading">
-                    <h1 id="home-heading-1"> TED </h1><br>
+                    <h1 id="home-heading-1" > TED </h1><br>
                     <h1 id="home-heading-2">IT <span>SCHOOL</span></h1>
                 </div>
                 <div id="home-text">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum doloribus  similique vitae est error vero. Odit, deleniti?</p>
-                </div>
-                <div id="home-btn">
-                    
-                    <a class="btn btn-general btn-home" href="#about" title="Start Now" role="button"><button type="button" class="btn btn-light">Start Now</button></a>
+                    <p>Achieving High Standards IT Skills in Short Time </p>
                 </div>
             </div>
         </div>
@@ -54,33 +103,32 @@
 
     </section>
 <!-- end section-->
-   
  <!--About section-->
  <section id="about">
      <div id="about-1">
          <div class="content-box-lg">
              <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div id="about-left">
-                            <div class="vertical-heading">
-                                <h5>Who we are</h5>
-                                <h2>A <strong>Story</strong><br> About Us</h2>
-                            </div>
+                    <div class="col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="3s">
+                        <div class="vertical-heading">
+                            <h5> TED IT SCHOOL</h5>  
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="about-right"> 
-                           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos harum consequuntur ea iste est? Tempore nostrum libero consequuntur, sit amet aliquid nesciunt et veritatis? Ipsa dicta suscipit ducimus provident nesciunt.</p>
-                           <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim officiis, illo officia maxime atque laudantium? Esse vel incidunt 
+                        <div class="horizontal-heading text-center">
+                            <h2> About Us</h2><hr>
+                        </div>
+                    </div><hr>
+                    
+                    <div class="col-md-6 col-sm-6 wow slideInRight" data-wow-duration="3s">
+                        <div id="about-right"> <br>
+                           <p> TED IT SCHOOOL aims to have a good understanding of technology and programming.As a Team we are aim Everyone can code and having a good knowledge of programming in short time.
+                            where we assist you on your journey to becoming a programmer and know some languages of programming  in a few short months. 
                            </p>
-      
+                          
                         </div>
-                       
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow fadeInUp" data-wow-duration="3s">
                         <div id="about-bottom">
                             <img src="img/ted.png" alt="about us" class="img-responsive" >
                         </div>
@@ -88,36 +136,35 @@
                 </div>
 
              </div>
-            
          </div>
      </div>
      <div id="about-02">
          <div class="content-box-md">
              <div class="container">
                  <div class="row">
-                     <div class="col-md-4">
+                     <div class="col-md-4 col-sm-4 wow slideInLeft" data-wow-duration="3s">
                          <div class="about-item text-center">
                              <i class="fa fa-rocket" style="color:red"></i>
                              <h3>Mission</h3>
                              <hr>
-                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  voluptates! Debitis excepturi corporis repellat perspiciatis.</p>
+                             <p>The mission of our Information Technology department is to provide both strategic IT vision and enterprising solutions for a department staff, so they may be able to meet their goals, deliver results, and enhance the company's position.</p>
                          </div>
                     
                      </div>
-                     <div class="col-md-4">
+                     <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="3s">
                         <div class="about-item text-center">
                             <i class="fa fa-eye" style="color:red"></i>
                             <h3>Vision</h3>
                             <hr>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  voluptates! Debitis excepturi corporis repellat perspiciatis.</p>
+                            <p>Vision IT Software was founded around the experience and the environment of competitive world of IT. Vision was about a organization with competitive spirit, lots of experience, enthusiasm and team at which you could rely and ithout any pressure of failure and Delay. </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4 wow slideInRight" data-wow-duration="3s">
                         <div class="about-item text-center">
                             <i class="fa fa-pencil" style="color:red"></i>
                             <h3>Passion</h3>
                             <hr>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  voluptates! Debitis excepturi corporis repellat perspiciatis.</p>
+                            <p>leading systems integrator in the region. We partner with the world’s leading technology inventors and grow the best talent in the industry to provide you technology solutions that power your business.Now, more than ever before, technology powers business.</p>
                         </div>
                     </div>
                  </div>
@@ -126,7 +173,376 @@
      </div>
    
  </section>
+ <!--team section-->
+<section id="team">
+    <div class="content-box-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6  wow slideInLeft" data-wow-duration="3s">
+                    <div class="vertical-heading">
+                        <h5> TED IT SCHOOL</h5>  
+                    </div>
+                    
+                    <div class="horizontal-heading text-center">
+                        <h2> Meet Our <br><strong><bold> Talented Team </bold></strong> </h2><hr>
+                    </div>
+                    <p id="about-right"> As far You have committed time, energy and dedication toward learning new technology. As a team we can’t wait to see what you create, and want to do everything we can to support your success and build amazing projects.</p>
+                </div><hr>
+                
+                <div class="col-md-6 col-sm-6 wow slid">
+                    <div id="team-member" class="owl-carousel owl-theme">
+                        <div class="team-member1">
+                            <img src="img/hidri.png"   alt="team member" class='img-responsive' id="image-4">
+                            <div class="team-member-overlay">
+                                <div class="team-member-info text-center"> 
+                                    <h6> Hidri Abraham</h6>
+                                    <p> Web Developer</p>
+                                    <ul class="social-media"> 
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div> 
+                            </div>
+                        </div> 
+                        <div class="team-member1">
+                            <img src="img/a.png"   alt="team member" class='img-responsive' id="image-4">
+                            <div class="team-member-overlay">
+                                <div class="team-member-info text-center"> 
+                                    <h6> Meron Hayle</h6>
+                                    <p> Web Developer</p>
+                                    <ul class="social-media">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                   
+                            </div>
+                        </div>
+                    </div>        
+            </div>
+        </div>
+        <!-- <div id="progress-bar">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill">
+                        <h4>Basic Computer Skills</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                                <span >98% </span>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-md-6">
+                    <div class="skill">
+                        <h4>Web Development</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                                <span >90% </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6"><div class="skill">
+                    <h4>Mobile Development</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                            <span >80% </span>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="col-md-6">
+                    <div class="skill">
+                    <h4>Basic Computer </h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+                            <span >70% </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+                  
+        </div> -->
+            
+     </div>
+    </div>
+</section>
+    <section id="statement">
+        <div class="content-box-lg">
+            <div class="container">
+                 <div class="row">
+                    <div class="col-md-12 wow slideInRight"> 
+                     <div class="col-md-12 col-sm-12 ">
+                         <div id="tech-statement" class="text-center">
+                             <h3><i class="fa fa-quote-left"></i> Learning to write programs stretches your mind, and helps you think better, <br>creates a way of thinking about things that I think is helpful in all domains. <i class="fa fa-quote-right"></i></h3>
+                            <p> - BILL GATES-</p>
+                         </div>
+                     </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <!--Services-->
+    <section id="services">
+        <div id="services-01">
+            <div class="content-box-lg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6  wow slideDown">
+                            <div class="vertical-heading">
+                                <h5> TED IT SCHOOL</h5>  
+                            </div>
+                            <div class="col-md-12 wow slideInLeft"> 
+                            <div class="horizontal-heading text-center">
+                                <h2> Our Services</h2><hr>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 wow slideInLeft"> 
+                        <img src="img/com4.jpeg" alt="laptop" class="img-responsive">
+                    </div>
+                    <div class="col-md-5 col-sm-5 slideInRight">
+                        <div class="service">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="icon text-right">
+                                        <i class="fa fa-laptop">
+                                        </i>
+                                    </div>
+                                </div>
+                                <div class="col-md-10 col-sm-10 wow slideInRight"> 
+                                    <h5>Module-01 </h5>
+                                    <h4>Basic Computer Course </h4>
+                                    <p>  </p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="service">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="icon text-right">
+                                        <i class="fa fa-laptop">
+                                        </i>
+                                    </div>
+                                </div>
+                                <div class="col-md-10 col-sm-10 wow slideInRight"> 
+                                    <h5>Module-02 </h5>
+                                    <h4>Intro Programming Course </h4>
+                                    <p>  </p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="service">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="icon text-right">
+                                        <i class="fa fa-laptop">
+                                        </i>
+                                    </div>
+                                </div>
+                                <div class="col-md-10 wow slideInRight"> 
+                                    <h5>Module-03 </h5>
+                                    <h4> Core of Programming</h4>
+                                    <p> </p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+    <!---Prcing section-->
+    <section id="pricing">
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 wow fadeInLeft ">
+                        <div class="vertical-heading">
+                            <h5> TED IT SCHOOL</h5>  
+                        </div>
+
+                        <div class="horizontal-heading text-center">
+                            <h2>Our Pricing </h2> <hr>       
+                        </div>
+                    </div>
+                </div><br><br>
+                <div class="row">
+                    <div class="col-md-4 col-sm wow fadeInLeft">
+                        <div class="pricing-table">
+                            <div class="type">
+                                <h4> Basic Computer Course </h4>
+                            </div>
+                            <div class="price">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2> <span class="dollar">&#36;</span> 49 / Month</h2>
+                                    </div>   
+                                </div>
+                            </div>
+                            <ul class="package">
+                                <li><i class="fa fa-check"></i> Intro-computer</li>
+                                <li><i class="fa fa-check"></i>Microsoft office 2010/2013</li>
+                                <li><i class="fa fa-check"></i> Duration 6wks</li>
+                                <li><i class="fa fa-check"></i>Get Certificate </li>
+                            </ul>
+                           
+                        </div>
+                    </div> 
+                    <div class="col-md-4 col-sm-4 wow fadeInUp"> 
+                         <div class="pricing-table">
+                        <div class="type">
+                            <h4> Intro Programming Course </h4>
+                        </div>
+                        <div class="price">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2> <span class="dollar">&#36;</span> 69 / Month</h2>
+                                </div>   
+                            </div>
+                        </div>
+                        <ul class="package">
+                            <li><i class="fa fa-check"></i>HTML/CSS/Javascript</li>
+                            <li><i class="fa fa-check"></i>Intro Github</li>
+                            <li><i class="fa fa-check"></i> Duration 10wks</li>
+                            <li><i class="fa fa-check"></i>Get Certificate </li>
+                        </ul>
+                       
+                    </div></div>
+                    <div class="col-md-4 wow fadeInRight"> 
+                 <div class="pricing-table">
+                        <div class="type">
+                            <h4> Core of Programming </h4>
+                        </div>
+                        <div class="price">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2> <span class="dollar">&#36;</span> 89 / Month</h2>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <ul class="package">
+                            <li><i class="fa fa-check"></i>Angular Course</li>
+                            <li><i class="fa fa-check"></i>Intro Python</li>
+                            <li><i class="fa fa-check"></i>Duration 12weeks</li>
+                            <li><i class="fa fa-check"></i>Get Certificate </li>
+                        </ul>
+                    </div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact-->
+    <section id="contact">
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 wow fadeInLeft">
+                        <div id="contact-left">
+                          <div class="vertical-heading">
+                            <h5> TED IT SCHOOL</h5>  
+                            <div class="horizontal-heading text-center">
+                                <h2>Get  In  Touch  </h2>
+                            </div>
+                            
+                          </div><br><br>
+                         <hr>
+                          <div id="offices">
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <div class="office">
+                                          <h4>Address</h4><hr>
+                                          <ul class="office-details">
+                                              <li><i class="fa fa-mobile"></i>+254745970352</li>
+                                              <li><i class="fa fa-envelope-o"></i>agthidri2400@gmail.com</li>
+                                              <li><i class="fa fa-map-marker"></i><span> Nairobi <br> Kenya</span></li>
+                                          </ul>
+                                      </div>
+                                </div>
+                                  <!-- <div class="col-md-6">Address 2</div> -->
+                              </div>
+                          </div>
+
+                          <ul class="social-media">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 wow fadeInRight">
+                        <div id="contact-right">
+                            <form class="form-group" id="myform" onsubmit="return validation() " action="https://formspree.io/mjvgrdrp"   method="POST">
+                            
+                                <h4> Send Message</h4>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <div id="errorm"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                   
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" placeholder="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6"> 
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="email" placeholder="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="phone" placeholder="Phone No.">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6"> 
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="subject" placeholder="subject">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message" placeholder="Message"></textarea>
+                                </div>
+                                <div id="submit-btn">
+                                    <!-- <input type="submit" value="Send"> -->
+                                    <button type="submit" class="btn btn-outline-danger text-center" value="Send">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer class="text-center">
+    <div class="container">
+        <div class="container">
+            <div class="col-md-12">
+                <p> Copyright &copy; 2020 All Rights Reserved By <span> TED IT.</span></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
 </body>
+
+
+
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -137,7 +553,29 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 </script>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/js/mdb.min.js"></script>
+
 <script src="js/jquery.js"></script>
+
+<script src="js/owl/owl.carousel.min.js"></script>
+<script src="js/wow/wow.min.js"></script>
 <script src="js/script.js"></script>
 
 </html>
